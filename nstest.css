@@ -1,0 +1,158 @@
+/* OPMAAK HELE WEBSITE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* EINDE OPMAAK HELE WEBSITE */
+
+/* BODY GEHELE WEBSITE */
+body {
+    background-color: #e6e6e9;
+    font-family:Segoe UI;
+    font-size:1em;
+}
+/* EINDE BODY GEHELE WEBSITE */
+.mainheader {
+    background-color: white;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+}
+
+img {
+    height: 100%;
+    object-fit: contain;
+    width: 12rem;
+}
+
+/* HOOFDNAVIGATIE*/
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    height: 100%;
+    list-style: none;
+    width: 100%;
+}
+
+nav a {
+    color:#04327d;
+    height: 100%;
+    padding: 1em;
+    text-decoration: none;
+    width: 100%;
+}
+/* EINDE HOOFDNAVIGATIE*/
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 9em
+}
+
+/* FORMULIER VOOR VERHAAL KIEZEN*/
+form {
+    background-color:#F8C72A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    margin-top: 5em;
+    max-width: 28em;
+    min-width: 20em;
+    opacity:0.9;
+    padding: 1em 1em;
+}
+
+label, select {
+    color:#04327d;
+    margin-bottom: 1em;
+    width:100%;
+}
+
+label {
+    color: #04327d;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+select {
+    background-color: white;
+    border:none;
+    font-family:Segoe UI;
+    font-size:1em;
+    height: 3em;
+    width:100%;
+}
+
+form input, form .suprise {
+    background-color:#097ace;
+    box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
+    color:white;
+    font-family:Segoe UI;
+    line-height: 2.85em;
+    min-width: 8em;
+    text-align: center;
+    width: 45%;
+}
+
+input {
+    border-style: none;
+        font-size:1em;
+}
+
+.suprise {
+    text-decoration: none;
+}
+/* EINDE FORMULIER VOOR VERHAAL KIEZEN*/
+
+/* SECTION MET VERHALEN */
+section {
+    background-color: white;
+    color:#04327d;
+    margin-bottom: 1em;
+    max-width: 28em;
+    min-width: 20em;
+    padding: 1.2em;
+}
+
+h1 {
+    color:#04327d;
+    margin: -0.05em 0em 2em 0em;
+}
+
+h2 {
+    margin-top: 2em;
+    color: #097ace;
+}
+
+p {
+    color: #1b1e34;
+}
+/* EINDE SECTION MET VERHALEN */
+
+/* BUTTONS VAN DE WEBSITE */
+button {
+    background-color:#097ace;
+    border-style: none;
+    box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
+    color:white;
+    font-family:Segoe UI;
+    font-size:1em;
+    height: 2.8125em;
+    width: 100%;
+    margin-top: 1em;
+}
+/* EINDE BUTTONS VAN DE WEBSITE */
+
+
+
+
+
