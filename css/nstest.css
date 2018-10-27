@@ -184,6 +184,7 @@ article>img {
     margin-left: 15em;
     margin-top: -12em;
     width: 1.5em;
+    position: absolute;
 }
 
 p {
