@@ -183,8 +183,7 @@ article>img {
     height: auto;
     margin-left: 1em;
     margin-top: -1em;
-    position: absolute;
-    width: 1.5em;
+    width: 8.5em;
 }
 
 p {
@@ -257,6 +256,13 @@ button, form input, form .suprise, form a {
         background-image: url("../img/wit.jpg");
     }
 
+    article>img {
+        height: auto;
+        margin-left: 16em;
+        margin-top: -12em;
+        position: absolute;
+        width: 1.5em;
+    }
 }
 
 
