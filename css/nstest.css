@@ -181,7 +181,7 @@ h2 {
 
 article>img {
     height: auto;
-    margin-left: 15em;
+    margin-left: 16em;
     margin-top: -12em;
     width: 1.5em;
     position: absolute;
@@ -255,14 +255,6 @@ button, form input, form .suprise, form a {
 
     nav li:first-child, nav li:last-child{
         background-image: url("../img/wit.jpg");
-    }
-
-    article>img {
-        height: auto;
-        margin-left: 16em;
-        margin-top: -12em;
-        position: absolute;
-        width: 1.5em;
     }
 }
 
