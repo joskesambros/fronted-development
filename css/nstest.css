@@ -3,16 +3,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    @font-face {
+    font-family: Segoe UI, Myriad Pro, sans-serif;
+}
 }
 /* EINDE OPMAAK HELE WEBSITE */
 
 /* BODY GEHELE WEBSITE */
 body {
     background-color: #e6e6e9;
-    font-family:Segoe UI;
+    font-family: Segoe UI, Myriad Pro, sans-serif;
     font-size:1em;
 }
 /* EINDE BODY GEHELE WEBSITE */
+
 .mainheader {
     background-color: white;
     display: flex;
@@ -40,14 +44,31 @@ nav ul {
     width: 100%;
 }
 
+nav li {
+    background-repeat: no-repeat;
+    background-size: 2em;
+    padding-left: 2em;
+}
+
+nav li:first-child {
+    background-image: url("../img/settings.png");
+}
+
+nav li:last-child {
+    background-image: url("../img/inlog.png");
+}
+
 nav a {
     color:#04327d;
-    height: 100%;
-    padding: 1em;
+    display: block;
+    margin-right: auto;
+    padding: 0.5em;
     text-decoration: none;
-    width: 100%;
+    text-indent: -666em;
+    width: auto;
 }
 /* EINDE HOOFDNAVIGATIE*/
+
 
 main {
     align-items: center;
@@ -67,36 +88,35 @@ form {
     margin-top: 5em;
     max-width: 28em;
     min-width: 20em;
-    opacity:0.9;
     padding: 1em 1em;
 }
 
-label, select {
+fieldset {
+    border:none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+fieldset, select {
     color:#04327d;
     margin-bottom: 1em;
     width:100%;
 }
 
-label {
-    color: #04327d;
-    font-size: 1.5em;
-    text-align: center;
-}
-
 select {
     background-color: white;
     border:none;
-    font-family:Segoe UI;
+    font-family: Segoe UI, Myriad Pro, sans-serif;
     font-size:1em;
     height: 3em;
     width:100%;
 }
 
-form input, form .suprise {
+form input, form .suprise, form a, article a {
     background-color:#097ace;
     box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
     color:white;
-    font-family:Segoe UI;
+    font-family: Segoe UI, Myriad Pro, sans-serif;
     line-height: 2.85em;
     min-width: 8em;
     text-align: center;
@@ -105,13 +125,38 @@ form input, form .suprise {
 
 input {
     border-style: none;
-        font-size:1em;
+    font-size:1em;
 }
 
-.suprise {
+.suprise, form a {
     text-decoration: none;
 }
 /* EINDE FORMULIER VOOR VERHAAL KIEZEN*/
+
+/* FORMULIER VOOR INLOGGEN*/
+.login{
+    font-size: 1em;
+    text-align: left;
+}
+
+#password, #email {
+    background-color:white;
+    box-shadow: none;
+    color: #1b1e34;
+    line-height: 2.5em;
+    margin-bottom: 0.5em;
+    min-width: 8em;
+    text-align: left;
+    width: 100%;
+}
+
+.login legend {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+/* FORMULIER VOOR INLOGGEN*/
+
 
 /* SECTION MET VERHALEN */
 section {
@@ -125,12 +170,21 @@ section {
 
 h1 {
     color:#04327d;
-    margin: -0.05em 0em 2em 0em;
+    text-align: center;
+    width: 100%;
 }
 
 h2 {
-    margin-top: 2em;
     color: #097ace;
+    margin-top: 1.5em;
+}
+
+article>img {
+    height: auto;
+    margin-left: 16em;
+    margin-top: -12em;
+    position: absolute;
+    width: 1.5em;
 }
 
 p {
@@ -140,19 +194,59 @@ p {
 
 /* BUTTONS VAN DE WEBSITE */
 button {
-    background-color:#097ace;
     border-style: none;
+    font-size:1em;
+    margin-top: 1em;
+    width: 100%;
+}
+
+button, form input, form .suprise, form a, article a {
+    background-color:#097ace;
     box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
     color:white;
-    font-family:Segoe UI;
-    font-size:1em;
-    height: 2.8125em;
-    width: 100%;
-    margin-top: 1em;
+    font-family: Segoe UI, Myriad Pro, sans-serif;
+    line-height: 2.8125em;
+    text-align: center;
+}
+
+.suprise:hover, input:hover, form a:hover, button:hover {
+  background-color: #045d9b;
+    transition: 0.8s;
 }
 /* EINDE BUTTONS VAN DE WEBSITE */
 
 
 
+/*MAJOR BREAKPOINT GROTER DEVICE*/
+@media (min-width: 32em) {
+    nav a {
+        text-indent: 0;
+    }
 
+    main {
+        padding: 0 4em;
+    }
 
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 80em;
+    }
+
+    article{
+        margin-bottom: 1em;
+        margin-top: -1em;
+        padding: inherit;
+        width: 20em;
+    }
+
+    h2 {
+        margin-top: 0.8em;
+    }
+
+    nav li:first-child, nav li:last-child{
+        background-image: url("../img/wit.jpg");
+    }
+}
