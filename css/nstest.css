@@ -112,7 +112,7 @@ select {
     width:100%;
 }
 
-form input, form .suprise, form a, article a {
+form input, form .suprise, form a {
     background-color:#097ace;
     box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
     color:white;
@@ -181,7 +181,7 @@ h2 {
 
 article>img {
     height: auto;
-    margin-left: 16em;
+    margin-left: 1em;
     margin-top: -12em;
     position: absolute;
     width: 1.5em;
@@ -256,4 +256,14 @@ button, form input, form .suprise, form a {
     nav li:first-child, nav li:last-child{
         background-image: url("../img/wit.jpg");
     }
+
+    article>img {
+        height: auto;
+        margin-left: 16em;
+        margin-top: -12em;
+        position: absolute;
+        width: 1.5em;
+    }
 }
+
+
