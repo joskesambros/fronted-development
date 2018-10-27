@@ -181,9 +181,9 @@ h2 {
 
 article>img {
     height: auto;
-    margin-left: 1em;
-    margin-top: -1em;
-    width: 8.5em;
+    margin-left: 15em;
+    margin-top: -12em;
+    width: 1.5em;
 }
 
 p {
@@ -199,7 +199,7 @@ button {
     width: 100%;
 }
 
-button, form input, form .suprise, {
+button, form input, form .suprise, form a {
     background-color:#097ace;
     box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
     color:white;
