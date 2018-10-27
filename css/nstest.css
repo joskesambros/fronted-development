@@ -257,13 +257,6 @@ button, form input, form .suprise, form a {
         background-image: url("../img/wit.jpg");
     }
 
-    article>img {
-        height: auto;
-        margin-left: 16em;
-        margin-top: -12em;
-        position: absolute;
-        width: 1.5em;
-    }
 }
 
 
