@@ -179,10 +179,14 @@ h2 {
     margin-top: 1.5em;
 }
 
+article {
+    position: relative;
+}
+
 article>img {
     height: auto;
-    margin-left: 1em;
-    margin-top: -12em;
+    margin-left: 12em;
+    margin-top: -16em;
     width: 1.5em;
     position: absolute;
 }
