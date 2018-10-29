@@ -185,8 +185,8 @@ article {
 
 article>img {
     height: auto;
-    margin-left: 12em;
-    margin-top: -16em;
+    margin-left: 16em;
+    margin-top: -12em;
     width: 1.5em;
     position: absolute;
 }
