@@ -185,6 +185,7 @@ article {
 
 article>img {
     height: auto;
+    margin-left: 1em;
     width: 1.5em;
     position: absolute;
 }
@@ -207,7 +208,7 @@ form input, form .suprise, form a, article a {
 
 article a {
     text-decoration: none;
-    padding: 0.8em 5.8115em 0.8em 5.8115em;
+    padding: 0.8em 4.8115em 0.8em 4.8115em;
 }
 
 .story {
