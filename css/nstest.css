@@ -179,13 +179,14 @@ h2 {
     margin-top: 1.5em;
 }
 
-
+article {
+    position: relative;
+}
 
 article>img {
     height: auto;
-    margin-left: 15.4em;
-    margin-top: -12.2em;
     width: 1.5em;
+    position: absolute;
 }
 
 p {
@@ -257,4 +258,11 @@ article a {
     }
 }
 
+article>img {
+    height: auto;
+    margin-left: 15.4em;
+    margin-top: -12.2em;
+    width: 1.5em;
+    position: absolute;
+}
 
