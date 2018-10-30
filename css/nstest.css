@@ -179,32 +179,23 @@ h2 {
     margin-top: 1.5em;
 }
 
-article {
-    position: relative;
-}
+
 
 article>img {
     height: auto;
-    margin-left: 16em;
-    margin-top: -12em;
+    margin-left: 15.4em;
+    margin-top: -12.2em;
     width: 1.5em;
-    position: absolute;
 }
 
 p {
     color: #1b1e34;
+    margin-bottom: 1em;
 }
 /* EINDE SECTION MET VERHALEN */
 
 /* BUTTONS VAN DE WEBSITE */
-button {
-    border-style: none;
-    font-size:1em;
-    margin-top: 1em;
-    width: 100%;
-}
-
-button, form input, form .suprise, form a {
+form input, form .suprise, form a, article a {
     background-color:#097ace;
     box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
     color:white;
@@ -213,14 +204,18 @@ button, form input, form .suprise, form a {
     text-align: center;
 }
 
+article a {
+    text-decoration: none;
+    padding: 0.8em 5.8115em 0.8em 5.8115em;
+}
+
 .story {
     width: 100%;
     border-style: none;
     color: green;
-
 }
 
-.suprise:hover, input:hover, form a:hover, button:hover {
+.suprise:hover, input:hover, form a:hover, article a:hover {
   background-color: #045d9b;
     transition: 0.8s;
 }
