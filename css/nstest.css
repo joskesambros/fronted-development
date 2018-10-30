@@ -123,17 +123,9 @@ form input, form .suprise, form a {
     width: 45%;
 }
 
-#test {
+input {
     border-style: none;
     font-size:1em;
-    background-color:#097ace;
-    box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
-    color:white;
-    font-family: Segoe UI, Myriad Pro, sans-serif;
-    line-height: 2.85em;
-    min-width: 8em;
-    text-align: center;
-    width: 45%;
 }
 
 .suprise, form a {
@@ -205,7 +197,7 @@ p {
 /* EINDE SECTION MET VERHALEN */
 
 /* BUTTONS VAN DE WEBSITE */
-#test, form .suprise, form a, article a {
+form input, form .suprise, form a, article a {
     background-color:#097ace;
     box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
     color:white;
@@ -225,7 +217,7 @@ article a {
     color: green;
 }
 
-.suprise:hover, input:hover, form a:hover, article a:hover, #test:hover {
+.suprise:hover, input:hover, form a:hover, article a:hover {
   background-color: #045d9b;
     transition: 0.8s;
 }
