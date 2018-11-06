@@ -1,111 +1,118 @@
 <!DOCTYPE html>
 <html lang="nl">
-    <head>
-      <title>99 reis verhalen</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="css/nstest.css">
-    </head>
-    <body>
+  <head>
+    <title>99 reis verhalen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ns2.css">
+</head>
 
-        <!-- HOOFDNAVIGATIE -->
-        <header class="mainheader">
-            <img src="img/headerwebsite.jpg" alt="header">
-             <nav>
-              <ul>
-                <li><a href="Instellingen">Instellingen</a></li>
+  <body>
+
+    <!-- HOOFDNAVIGATIE -->
+    <header class="mainheader">
+        <a href="index.html"><img src="img/headerwebsite.jpg" alt="header">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="html/favorieten.html">Favorieten</a></li>
                 <li><a href="html/inloggen.html">Inloggen</a></li>
-              </ul>
-            </nav>
-        </header>
-        <!--  EINDE HOOFDNAVIGATIE -->
+            </ul>
+        </nav>
+    </header>
+    <!--  EINDE HOOFDNAVIGATIE -->
 
-        <!-- DROPDOWN-LIST MET DE VERSCHILLENDE SOORTEN GENRES -->
-        <main>
-          <form action="html/personen.html">
-              <fieldset>
-                  <legend>Welk verhaal wilt u lezen? </legend>
-              </fieldset>
+    <!-- DROPDOWN-LIST MET DE VERSCHILLENDE SOORTEN GENRES -->
+    <main>
+        <form action="html/personen.html">
+            <fieldset>
+                <legend>Welk verhaal wilt u lezen? </legend>
+            </fieldset>
 
-               <select name="genres">
-                    <option value="Kies een genre" disabled selected>Kies een genre</option>
-                    <option value="Aparte verhalen">Aparte verhalen</option>
-                    <option value="Beperkingen">Beperkingen</option>
-                    <option value="Gevoel">Gevoel</option>
-                    <option value="Kort maar krachtig">Kort maar krachtig</option>
-                    <option value="Levensfase">Levensfase</option>
-                    <option value="Momentopname">Momentopname</option>
-                    <option value="Personen">Personen</option>
-                    <option value="Schrijfvorm">Schrijfvorm</option>
-                    <option value="Sport">Sport</option>
-                    <option value="Stijlfiguren">Stijlfiguren</option>
-                </select>
-                <input type="submit" name="send" value="Zoeken  >">
-                <a href="html/verrasmij.html" class="suprise">Verras mij    ></a>
+            <select name="genres">
+                <option value="Kies een genre" disabled selected>Kies een genre</option>
+                <option value="Aparte verhalen">Aparte verhalen</option>
+                <option value="Beperkingen">Beperkingen</option>
+                <option value="Gevoel">Gevoel</option>
+                <option value="Kort maar krachtig">Kort maar krachtig</option>
+                <option value="Levensfase">Levensfase</option>
+                <option value="Momentopname">Momentopname</option>
+                <option value="Personen">Personen</option>
+                <option value="Schrijfvorm">Schrijfvorm</option>
+                <option value="Sport">Sport</option>
+                <option value="Stijlfiguren">Stijlfiguren</option>
+            </select>
+            <a href="html/verrasmij.html" class="suprise">Verras mij ></a>
+            <input type="submit" name="send" value="Zoeken  >">
+        </form>
+        <!-- EINDE DROPDOWN-LIST MET DE VERSCHILLENDE SOORTEN GENRES -->
 
-          </form>
-          <!-- EINDE DROPDOWN-LIST MET DE VERSCHILLENDE SOORTEN GENRES -->
-
-          <!--  SELECTIE MET POPULAIRE VERHALEN -->
-          <section>
+        <!--  SELECTIE MET POPULAIRE VERHALEN -->
+        <section>
             <h1>Populairste verhalen</h1>
             <article>
-              <header>
-                <h2>Acrostichon</h2>
-              </header>
-              <p>Ronkend en zuchtend komt de bus tot stilstand Amsterdam Centraal, stationsplein, mijn bloedeigen Y-chromosoompje slaapt in zijn mobiele mand Miezerig weer, drilboren.....
-              </p>
-              <a href="img/verhaaltje.gif" target="_blank">Lees verder    ></a>
+                <header>
+                    <img src="img/acrostichon.jpg" alt="Acrostichon image" class="storytime">
+                    <h2>Acrostichon</h2>
+                </header>
+                <p>Ronkend en zuchtend komt de bus tot stilstand Amsterdam Centraal, stationsplein, mijn bloedeigen Y-chromosoompje slaapt in zijn mobiele mand Miezerig weer, drilboren.....
+                </p>
+                <a href="html/verhaal.html">Lees verder ></a>
             </article>
 
             <article>
-              <header>
-                <h2>Boers</h2>
-              </header>
-              <p>Ik stap dus op ut stationsplein in dieën groâte stad uut dieën bus, met mien zoân in zijne keierwoâguh. Mien zoân sloâpt. Gelaik n’n roâske. Ut regent en ut woâit. Ut.....
-              </p>
-              <a href="img/verhaaltje.gif" target="_blank">Lees verder    ></a>
+                <header>
+                    <img src="img/boers.jpg" alt="Boer image" class="storytime">
+                    <h2>Boers</h2>
+                </header>
+                <p>Ik stap dus op ut stationsplein in dieën groâte stad uut dieën bus, met mien zoân in zijne keierwoâguh. Mien zoân sloâpt. Gelaik n’n roâske. Ut regent en ut woâit. Ut.....
+                </p>
+                <a href="html/verhaal.html">Lees verder ></a>
             </article>
 
             <article>
-              <header>
-                <h2>Code</h2>
-              </header>
-              <p>Kraak de code en win een romantisch etentje met de verwarde man. In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engel vinden…….
-              </p>
-              <a href="img/verhaaltje.gif" target="_blank">Lees verder    ></a>
+                <header>
+                    <img src="img/code.jpg" alt="Code Image" class="storytime">
+                    <h2>Code</h2>
+                </header>
+                <p>Kraak de code en win een romantisch etentje met de verwarde man. In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engel vinden…….
+                </p>
+                <a href="html/verhaal.html">Lees verder ></a>
             </article>
 
             <article>
-              <header>
-                <h2>Heroïsch vers</h2>
-              </header>
-              <p>Kraak de code en win een romantisch etentje met de verwarde man. In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engel vinden…….
-              </p>
-              <a href="img/verhaaltje.gif" target="_blank">Lees verder    ></a>
+                <header>
+                    <img src="img/acrostichon.jpg" alt="Heroisch image" class="storytime">
+                    <h2>Heroïsch vers</h2>
+                </header>
+                <p>Kraak de code en win een romantisch etentje met de verwarde man. In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engel vinden…….
+                </p>
+                <a href="html/verhaal.html">Lees verder ></a>
             </article>
 
             <article>
-              <header>
-                <h2>Hongerwinter</h2>
-              </header>
-              <p>Kraak de code en win een romantisch etentje met de verwarde man. In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engel vinden…….
-              </p>
-              <a href="img/verhaaltje.gif" target="_blank">Lees verder    ></a>
+                <header>
+                    <img src="img/hongerwinter.jpg" alt="Hongerwinter image" class="storytime">
+                    <h2>Hongerwinter</h2>
+                </header>
+                <p>Kraak de code en win een romantisch etentje met de verwarde man. In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engel vinden…….
+                </p>
+                <a href="html/verhaal.html">Lees verder ></a>
             </article>
 
             <article>
-              <header>
-                <h2>Rondo's</h2>
-              </header>
-              <p>Ronkend en zuchtend komt de bus tot stilstand Amsterdam Centraal, stationsplein, mijn bloedeigen Y-chromosoompje slaapt in zijn mobiele mand Miezerig weer, drilboren.....</p>
-              <a href="img/verhaaltje.gif" target="_blank">Lees verder    ></a>
+                <header>
+                    <img src="img/rondo.jpg" alt="Rondo image" class="storytime">
+                    <h2>Rondo's</h2>
+                </header>
+                <p>Ronkend en zuchtend komt de bus tot stilstand Amsterdam Centraal, stationsplein, mijn bloedeigen Y-chromosoompje slaapt in zijn mobiele mand Miezerig weer, drilboren.....</p>
+                <a href="html/verhaal.html">Lees verder ></a>
             </article>
-         </section>
+        </section>
 
 
-         <!--  EINDE SELECTIE MET POPULAIRE VERHALEN -->
+        <!--  EINDE SELECTIE MET POPULAIRE VERHALEN -->
 
     </main>
-  </body>
+   </body>
 </html>
