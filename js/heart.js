@@ -1,17 +1,13 @@
-var hartje = document.getElementById('hartje');
+//Like een verhaal
 
+// Roep de button aan waarvan ik de class wil veranderen
+var hartje = document.querySelectorAll('article > button');
+//test
+console.log("hartje?",hartje)
 
-hartje.onclick = function () {
-    if (hartje.src.includes('/img/hart2.jpg')) {
-        hartje.src = '../img/hartje22.gif';
-    } else
-    if (hartje.src.includes('/img/hartje22.gif')) {
-        hartje.src = '../img/hartje23.gif';
-    } else
-    if (hartje.src.includes('/img/hartje23.gif')) {
-        hartje.src = '../img/hartje22.gif';
-    }
-    if (hartje.src.includes('/img/hartgevuld.jpg')) {
-        hartje.src = '../img/hartje23.gif';
-    }
-};
+//Verander alle Classes van de button
+for (var i = 0; i < hartje.length; i++) {
+    hartje[i].addEventListener("click", function() {  this.classList.toggle('hartje2');
+    });
+}
+
