@@ -1,0 +1,120 @@
+/* BODY GEHELE WEBSITE */
+body {
+    background-color: #e6e6e9;
+    font-family:Segoe UI;
+    font-size:1em;
+    width: 30em;
+}
+/* EINDE BODY GEHELE WEBSITE */
+
+img {
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    width: 40%;
+}
+
+/* HOOFDNAVIGATIE */
+nav ul {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 2.75em;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: -3em;
+    padding: 0em;
+    width: 24em;
+}
+
+nav a {
+    background-color: white;
+    color:#04327d;
+    padding: 1em;
+    text-decoration: none;
+}
+/* EINDE HOOFDNAVIGATIE */
+
+select {
+    background-color: white;
+    border:1em;
+    color:#04327d;
+    font-family:Segoe UI;
+    font-size:1em;
+    height: 3em;
+    margin: 1em 0em;
+    width:20em;
+}
+
+fieldset {
+    background-color:#F8C72A;
+    border:0em;
+    margin: 5em 20em 3em 0.3em;
+    opacity:0.9;
+    padding: 1.2em;
+}
+
+
+label {
+    color: #04327d;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+/* BUTTONS VAN DE WEBSITE */
+button {
+    background-color:#097ace;
+    border-style: none;
+    box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
+    color:white;
+    font-family:Segoe UI;
+    font-size:1em;
+    height: 2.8125em;
+    min-width: 7.5em;
+}
+/* EINDE BUTTONS VAN DE WEBSITE */
+
+input {
+    background-color:#097ace;
+    border-style: none;
+    box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
+    color:white;
+    font-family:Segoe UI;
+    font-size:1em;
+    height: 2.8125em;
+    line-height: 1.5625em;
+    margin-left: 0.125em;
+    min-width: 7.5em;
+    padding: 0.3125em,1.125em,0.3125em,1.25em;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+
+.verrasmij {
+    background-color:#097ace;
+    color:white;
+    font-family:Segoe UI;
+    font-size:1em;
+    height: 2.8125em;
+    line-height: 2.85em;
+    margin-left: 0.125em;
+    min-width: 7.5em;
+    text-decoration: none;
+    box-shadow: 0em 0.25em 0em 0em rgba(4,93,155,1);
+    display: inline-block;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    color:#04327d;
+    margin-bottom: 1em;
+    padding: 1.2em;
+    width: 20em;
+}
+
+h1 {
+    color:#04327d;
+    margin: -0.05em 0em 2em 0em;
+}
+
