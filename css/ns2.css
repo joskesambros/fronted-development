@@ -75,6 +75,14 @@ nav li:nth-child(3) {
     margin-left: -3em;
 }
 
+nav li:nth-child(1) p {
+    position: absolute;
+    margin-top: -2em;
+    margin-left: -1.8em;
+    background-color: transparent;
+    color:#04327d;
+}
+
 nav li:hover{
     opacity: 0.5s;
     font-size: 1.05em;
@@ -115,7 +123,6 @@ form {
     min-width: 20em;
     padding: 1em 1em 2em 1em;
     padding: 1em 1em 2em 1em;
-
 }
 
 fieldset {
@@ -157,6 +164,12 @@ input {
     text-align: left;
 }
 
+.transition2 {
+    transition: all 1s;
+    opacity: 0.1;
+    background-color:grey;
+}
+
 #password, #mail {
     background-color:white;
     box-shadow: none;
@@ -174,6 +187,24 @@ input {
 .login input:valid{
     outline: 1px solid green;
 }
+
+/* Loading state inlogscherm */
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+    margin-top: -15em;
+  animation: spin 20s linear infinite;
+    transition: 1.1;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(360deg); }
+}
+
 
 /* FORMULIER VOOR INLOGGEN*/
 
@@ -206,9 +237,27 @@ article {
 
 article>img {
     position: absolute;
-    margin-top: -18.3em;
+    margin-top: -18.4em;
     margin-left: 16.5em;
     width: 1.5em;
+}
+
+article>button {
+    position: absolute;
+    background-image: url("../img/hart2.jpg");
+    margin-top: -15.3em;
+    margin-left: 24.1em;
+    width: 1.5em;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0;
+    width: 100%;
+    height: 2.5em;
+}
+
+.hartje2 {
+    background-image: url("../img/hartje22.gif");
 }
 
 .storytime {
@@ -233,7 +282,6 @@ p {
     position: absolute;
     padding: 0.5em;
 }
-
 /* EINDE SECTION MET VERHALEN */
 
 /* BUTTONS VAN DE WEBSITE */
@@ -254,11 +302,11 @@ article a {
     margin-top: 2em;
 }
 
-
 .suprise:hover, input:hover, form a:hover, article a:hover {
       background-color: #045d9b;
       transition: 0.8s;
 }
+
 /* EINDE BUTTONS VAN DE WEBSITE */
 
 
@@ -341,9 +389,14 @@ article a {
 
     article>img {
         position: absolute;
-        margin-top: -19.4em;
+        margin-top: -19.7em;
         margin-left: 10.9em;
-        width: 1.5em;
+    }
+
+    button.hartje {
+        position: absolute;
+        margin-top: -15.1em;
+        margin-left: 14.9em;
     }
 
     h2{
@@ -354,3 +407,13 @@ article a {
         margin-left: 1em;
     }
 }
+
+a.loginbutton2 {
+    background-color: dimgray;
+    box-shadow: 0em 0.25em 0em 0em rgba(68,61,64,1);
+    background-color: dimgray;
+      transition: 0.8s;
+}
+
+
+
